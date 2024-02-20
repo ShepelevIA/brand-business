@@ -1,0 +1,557 @@
+/* media */
+@media screen and (max-width: 1311px) {
+    .bg_brand_offer {
+        clip-path: polygon(0 0, 76% 0, 60% 100%, 0% 100%);
+    }
+
+    .wrapper_header nav ul li i {
+        display: none;
+    }
+
+    .brand_offer_content {
+        width: 50%;
+    }
+
+    .avtor {
+        width: 40%;
+        height: auto;
+    }
+
+    .bg_brand_offer {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1171px) {
+    .brand_offer_content {
+        width: 50%;
+    }
+
+    .wrapper_marathon {
+        flex-direction: column;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .item_marathon {
+        margin: 10px 0;
+        margin-left: 10px;
+    }
+    .wrapper_brand_offer {
+        align-items: flex-end;
+    }
+
+    .cards_for_whom {
+        justify-content: space-between;
+    }
+
+    .card_for_whom {
+        margin-top: 60px;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1084px) {
+    .control_buy_rates {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1055px) {
+    .wrapper_header nav ul li a {
+        font-size: 18px;
+    }
+    .btn_buy_credit_header_programs {
+        margin: 20px 0 0 0;
+    }
+}
+ 
+@media screen and (max-width: 1024px) {
+    #program_result .load_image {
+        position: absolute;
+        inset: 0 0 0 0;
+    }
+
+    .wrapper_program_result h1 {
+        text-align: center;
+    }
+
+    .mobile_menu, .mobile_menu_close {
+        display: block;
+    } 
+
+    .wrapper_autor {
+        position: relative;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .brand_offer_avtor {
+        display: none;
+    }
+
+    .wrapper_header nav ul {
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        background-color: var(--dark-bassic-bg-header);
+        animation: animateMobileMenuShow 0.5s linear;
+    }
+
+    @keyframes animateMobileMenuShow {
+        0% {
+            opacity: 0;
+            transform: scale(0);
+        }
+        100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+
+    .wrapper_header nav ul li {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .wrapper_header nav ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    .wrapper_header nav ul li a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        font-size: 30px;
+    }
+
+    .wrapper_header nav ul li i {
+        display: block;
+        font-size: 50px;
+    }
+
+    #brand_offer {
+        height: auto;
+        position: relative;
+    }
+
+    #brand_offer .container {
+        padding: 0;
+    }
+
+    .btn-show-brand_offer {
+        margin-bottom: 10px;
+    }
+
+    .wrapper_brand_offer {
+        flex-direction: column;
+        align-items: center;
+        background: url('../img/avtor.png');
+        background-repeat: no-repeat;
+        background-clip: border-box;
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wrapper_brand_offer .load_image {
+        display: none;
+    }
+
+    .brand_offer_content{
+        position: relative;
+        inset: 0 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        padding: 30px 0;
+        box-sizing: border-box;
+        background: rgba(64, 64, 64, 0.6);
+        -webkit-backdrop-filter: blur(3px);
+        backdrop-filter: blur(3px);
+    }
+
+    .dark_mode_style .brand_offer_content{
+        background: rgba(14, 14, 14, 0.6);
+        color: #fff;
+    }
+
+    .avtor {
+        transform: none;
+        animation: none;
+        right: 0;
+        margin-right: 0;
+        width: 50%;
+        display: none;
+    }
+
+    .wrapper_marathon {
+        flex-direction: row;
+        margin-top: 0;
+        justify-content: center;
+    }
+
+    .brand_offer_content h1{
+        padding: 10px 40px 30px 40px;
+        box-sizing: border-box;
+    }
+
+    .brand_offer_content_text p {
+        padding: 30px 30px 10px 30px;
+        width: 100%;
+        mix-blend-mode: eclipse;
+    }
+
+    .bg_brand_offer {
+        display: none;
+        width: 100%;
+    }
+
+    .card_for_whom {
+        width: 50%;
+    }
+
+    #for_whom h1 {
+        margin-bottom: 0;
+    }
+
+    .emotional_quote_description {
+        width: 100%;
+    }
+
+    .program_format_card {
+        width: 45%;
+    }
+    
+
+    .wrapper_program_result {
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+
+    .avtor_result_program {
+        position: absolute;
+        inset: 0 0 0 0;
+        z-index: 0;
+        max-width: 50%;
+    }
+
+    .list_program_result {
+        position: relative;
+        z-index: 1;
+    }
+
+    .list_program_result ol li {
+        background: rgba(22, 22, 22, 0.2);
+        -webkit-backdrop-filter: blur(3px);
+        backdrop-filter: blur(3px);
+    }
+
+    .wrapper_autor {
+        justify-content: space-between;
+    }
+
+    .autor_cards {
+        position: relative;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .avtor_card {
+        width: 100%;
+    }
+
+    .avtor_card p{
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+
+    .wrapper_autor img {
+        width: 100%;
+    }
+
+    .wrapper_autor::before {
+        top: 10%;
+        left: 20%;
+        right: 20%;
+        bottom: 40%;
+    }
+
+    .wrapper_autor::after {
+        top: 10%;
+        left: 20%;
+        right: 20%;
+        bottom: 40%;
+    }
+
+    .avtor_card {
+        margin: 0;
+    }
+
+    .wrapper-footer, .botom_footer {
+        flex-wrap: wrap;
+    }
+
+    .date_open {
+        font-size: 16px;
+    }
+
+    .avtor_card:nth-of-type(2) {
+        margin: 0;
+    }
+
+    .header_rates {
+        flex-direction: column;
+    }
+
+    .rate_rates {
+        padding-bottom: 10px;
+    }
+
+    .price_rates {
+        width: 100%;
+    }
+
+    .avtor_card:nth-child(1) {
+        order: 2;
+    }
+
+    .avtor_card:nth-child(2) {
+        order: 1;
+    }
+
+    .avtor_card:nth-child(3) {
+        order: 3;
+    }
+
+    .avtor_card p:first-child {
+        box-shadow: 0px -12px 11px 0px rgba(0,0,0,0.1);
+        clip-path: none;
+        border: none;
+    }
+
+    .slide {
+        flex: 0 0 50%;
+      }
+    
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 23px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .wrapper_about_the_course {
+        column-count: 1;
+    }
+
+    .wrapper_header nav ul li a {
+        font-size: 25px;
+    }
+
+    .wrapper_header nav ul li i {
+        font-size: 25px;
+    }
+
+    .item_marathon:nth-child(1) {
+        order: 1;
+    }
+
+    .item_marathon:nth-child(2) {
+        order: 3;
+    }
+
+    .item_marathon:nth-child(3) {
+        order: 2;
+    }
+
+    .program_format_cards {
+        justify-content: center;
+    }
+
+    .card_for_whom {
+        width: 100%;
+    }
+
+    .program_format_card {
+        width: 100%;
+    }
+
+    .autor_cards {
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .avtor_card {
+        width: 100%;
+    }
+
+    .avtor_card p{
+        -webkit-backdrop-filter: blur(3px);
+        backdrop-filter: blur(3px);
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+
+    .wrapper_autor::before {
+        top: 10%;
+        left: 10%;
+        right: 10%;
+        bottom: 30%;
+    }
+
+    .wrapper_autor::after {
+        top: 10%;
+        left: 10%;
+        right: 10%;
+        bottom: 30%;
+    }
+
+    .wrapper_autor .loaded {
+        text-align: center;
+    }
+
+    .wrapper_autor img {
+        width: 60%;
+    }
+
+    .card_rates {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .avtor_result_program {
+        max-width: 100%;
+    }
+
+    .wrapper_input input{
+        font-size: 16px;
+    }
+
+    .slide {
+        flex: 0 0 100%;
+      }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 23px;
+    }
+    h2 {
+        font-size: 18px !important;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    p, span{
+        font-size: 16px;
+    }
+
+    .brand_offer_content h1 span,  .brand_offer_content h1{
+        font-size: 30px;
+    }
+
+    .item_marathon span {
+        font-size: 16px;
+    }
+
+    .wrapper_autor::before, .wrapper_autor::after {
+        top: 5%;
+        left: 0;
+        right: 0;
+        bottom: 30%;
+    }
+    
+    .wrapper_autor img {
+        width: 100%;
+    }
+
+    .brand_offer_content h1 {
+        padding: 0;
+    }
+
+    .brand_offer_content_text p {
+        padding-top: 0;
+    }
+
+    .item_marathon span {
+        margin-bottom: 0;
+    }
+
+    .wrapper_text_marathon {
+        padding: 0 5px;
+    }
+
+    .btn_submit_form {
+        width: 100%;
+    }
+
+    .wrapper_marathon {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .item_marathon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wrapper_text_marathon {
+        margin-top: 5px;
+        padding: 5px;
+        justify-content: center;
+        box-sizing: border-box;
+        max-width: 100px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .wrapper_brand_offer {
+        background-size: 100% auto;
+        background-position: bottom;
+    }
+
+    .wrapper_autor::before, .wrapper_autor::after {
+        top: 5%;
+        left: 0;
+        right: 0;
+        bottom: 60%;
+    }
+
+    .control_reviews {
+        flex-direction: column;
+    }
+
+    .control_reviews .popUp_btn {
+        margin-top: 10px;
+    }
+
+    .wrapper_popUp{
+        align-items: flex-start;
+    }
+
+}
